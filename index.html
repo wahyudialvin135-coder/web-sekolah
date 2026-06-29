@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A static migration of the Laravel frontend into a fast, deployable website for Netlify, GitHub Pages, or any simple static host."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <title>EduMonitor | Static Migration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html"><span>Edu</span>Monitor</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Static migration complete</p>
+            <h1>Laravel frontend transformed into a fast and portable website.</h1>
+            <p>
+              The original UI has been rebuilt as a static experience with responsive
+              layout, motion, strong typography, and relative asset paths so it can be
+              deployed to Netlify, GitHub Pages, or any basic hosting service.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="about.html">Explore the story</a>
+              <a class="btn btn-secondary" href="news.html">Browse updates</a>
+            </div>
+          </div>
+          <div class="hero-card reveal">
+            <img src="assets/images/hero-illustration.svg" alt="Modern dashboard illustration" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="stats-grid">
+          <article class="stat reveal">
+            <strong>100%</strong>
+            <span>Static HTML output</span>
+          </article>
+          <article class="stat reveal">
+            <strong>No PHP</strong>
+            <span>Blade, Composer, and Artisan are no longer required</span>
+          </article>
+          <article class="stat reveal">
+            <strong>Fast load</strong>
+            <span>Relative assets and deferred scripts for better performance</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What changed</p>
+            <h2>Core frontend elements preserved as static pages.</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal">
+              <h3>Layout and structure</h3>
+              <p>Navigation, hero sections, cards, and content blocks were rebuilt in plain HTML for reliable hosting.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Animation and motion</h3>
+              <p>Subtle reveals, hover states, and smooth transitions were retained with lightweight CSS and JavaScript.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Responsive behavior</h3>
+              <p>The experience adapts to smaller screens with stacked layouts and touch-friendly navigation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Backend-ready areas</p>
+          <h2>Dynamic features are now presented as static previews.</h2>
+        </div>
+        <div class="backend-grid">
+          <article class="backend-card reveal">
+            <h3>Authentication</h3>
+            <p>Login and registration views are represented as static mock states. A real backend is required for account handling.</p>
+          </article>
+          <article class="backend-card reveal">
+            <h3>Dashboard and monitoring</h3>
+            <p>Analytics panels are shown as sample content to preserve the visual structure while signaling that live data needs a server.</p>
+          </article>
+          <article class="backend-card reveal">
+            <h3>Reports and uploads</h3>
+            <p>Forms and action surfaces are visible but intentionally non-functional until a backend is connected.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> EduMonitor. Static deployment ready.</p>
+        <a href="contact.html">Get in touch</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

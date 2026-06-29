@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="News and release updates for the static migration of the site."
+    />
+    <title>News | EduMonitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html"><span>Edu</span>Monitor</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container reveal">
+          <p class="eyebrow">Latest updates</p>
+          <h1>Static release notes and deployment guidance.</h1>
+          <p>Content is preserved as static articles so the site can be hosted without a CMS or server-side runtime.</p>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Deployment ready</h3>
+            <p>The project now opens from index.html and remains fully compatible with static hosting.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Asset cleanup</h3>
+            <p>CSS, JavaScript, and image references were centralized into relative paths for simpler publishing.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Next step</h3>
+            <p>Hook up real form handling, live reports, and authenticated dashboards with a separate backend service later.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> EduMonitor. Static deployment ready.</p>
+        <a href="index.html">Back home</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

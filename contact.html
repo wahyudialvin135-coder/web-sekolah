@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact information and a static contact form placeholder for the migrated site."
+    />
+    <title>Contact | EduMonitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html"><span>Edu</span>Monitor</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="news.html">News</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container contact-grid reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1>Questions about the migration?</h1>
+            <p>The form below is a static placeholder. Sending it requires a live backend endpoint.</p>
+          </div>
+          <form class="contact-card" action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="name@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell us about your deployment needs"></textarea>
+            </label>
+            <button class="btn btn-primary" type="button">Send message</button>
+            <p class="tiny-note">This is a mock action until a backend endpoint is connected.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> EduMonitor. Static deployment ready.</p>
+        <a href="index.html">Back home</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
