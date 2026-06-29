@@ -5,124 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A static migration of the Laravel frontend into a fast, deployable website for Netlify, GitHub Pages, or any simple static host."
+      content="A polished static recreation of the Laravel welcome experience for deployment on Netlify or GitHub Pages."
     />
-    <meta name="theme-color" content="#0f172a" />
-    <title>EduMonitor | Static Migration</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="theme-color" content="#ff2d20" />
+    <title>Laravel | Static Welcome</title>
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="index.html"><span>Edu</span>Monitor</a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-        <nav class="nav-links" aria-label="Primary navigation">
-          <a class="active" href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="news.html">News</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav">
+          <a class="brand" href="index.html" aria-label="Laravel home">
+            <svg viewBox="0 0 62 65" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0706 61.4983 14.1068C61.532 14.1429 61.5629 14.1816 61.5892 14.224C61.6201 14.2739 61.645 14.3252 61.665 14.3799C61.6919 14.4442 61.7135 14.5105 61.7299 14.5789C61.7442 14.6263 61.7547 14.6738 61.7617 14.7214C61.7821 14.8394 61.7892 14.9594 61.7824 15.0794C61.7815 15.108 61.7778 15.1368 61.7724 15.1655L61.8548 14.6253Z" fill="currentColor" />
+            </svg>
+            <span>Laravel</span>
+          </a>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </header>
 
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Static migration complete</p>
-            <h1>Laravel frontend transformed into a fast and portable website.</h1>
-            <p>
-              The original UI has been rebuilt as a static experience with responsive
-              layout, motion, strong typography, and relative asset paths so it can be
-              deployed to Netlify, GitHub Pages, or any basic hosting service.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="about.html">Explore the story</a>
-              <a class="btn btn-secondary" href="news.html">Browse updates</a>
+      <main>
+        <section class="hero">
+          <div class="container hero-grid reveal">
+            <div class="hero-copy">
+              <p class="eyebrow">Laravel 12</p>
+              <h1>Build something beautiful with Laravel.</h1>
+              <p>
+                Laravel makes it simple to build modern web applications with expressive syntax,
+                elegant tooling, and a polished developer experience. This static version preserves that
+                same visual spirit while staying deployable anywhere.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="about.html">Explore the app</a>
+                <a class="btn btn-secondary" href="contact.html">Contact us</a>
+              </div>
+            </div>
+            <div class="hero-card">
+              <div class="hero-card-inner">
+                <h2>Documentation</h2>
+                <p>
+                  Laravel has wonderful documentation covering every aspect of the framework. Whether you are a
+                  newcomer or have prior experience, we recommend reading our documentation from beginning to end.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="hero-card reveal">
-            <img src="assets/images/hero-illustration.svg" alt="Modern dashboard illustration" loading="lazy" />
+        </section>
+
+        <section class="section container">
+          <div class="cards-grid reveal">
+            <a class="feature-card large" href="#">
+              <div class="icon-wrap">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z" fill="currentColor" />
+                </svg>
+              </div>
+              <div>
+                <h3>Documentation</h3>
+                <p>Find the reference, guides, and best practices that make Laravel feel effortless.</p>
+              </div>
+            </a>
+
+            <a class="feature-card" href="#">
+              <div class="icon-wrap">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <g fill="currentColor">
+                    <path d="M24 8.25a.5.5 0 0 0-.5-.5H.5a.5.5 0 0 0-.5.5v12a2.5 2.5 0 0 0 2.5 2.5h19a2.5 2.5 0 0 0 2.5-2.5v-12Zm-7.765 5.868a1.221 1.221 0 0 1 0 2.264l-6.626 2.776A1.153 1.153 0 0 1 8 18.123v-5.746a1.151 1.151 0 0 1 1.609-1.035l6.626 2.776ZM19.564 1.677a.25.25 0 0 0-.177-.427H15.6a.106.106 0 0 0-.072.03l-4.54 4.543a.25.25 0 0 0 .177.427h3.783c.027 0 .054-.01.073-.03l4.543-4.543ZM22.071 1.318a.047.047 0 0 0-.045.013l-4.492 4.492a.249.249 0 0 0 .038.385.25.25 0 0 0 .14.042h5.784a.5.5 0 0 0 .5-.5v-2a2.5 2.5 0 0 0-1.925-2.432ZM13.014 1.677a.25.25 0 0 0-.178-.427H9.101a.106.106 0 0 0-.073.03l-4.54 4.543a.25.25 0 0 0 .177.427H8.4a.106.106 0 0 0 .073-.03l4.54-4.543ZM6.513 1.677a.25.25 0 0 0-.177-.427H2.5A2.5 2.5 0 0 0 0 3.75v2a.5.5 0 0 0 .5.5h1.4a.106.106 0 0 0 .073-.03l4.54-4.543Z" />
+                  </g>
+                </svg>
+              </div>
+              <div>
+                <h3>Laracasts</h3>
+                <p>Watch expert-led video tutorials that teach Laravel, PHP, and JavaScript.</p>
+              </div>
+            </a>
+
+            <a class="feature-card" href="#">
+              <div class="icon-wrap">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <g fill="currentColor">
+                    <path d="M8.75 4.5H5.5c-.69 0-1.25.56-1.25 1.25v4.75c0 .69.56 1.25 1.25 1.25h3.25c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25Z" />
+                    <path d="M24 10a3 3 0 0 0-3-3h-2V2.5a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2V20a3.5 3.5 0 0 0 3.5 3.5h17A3.5 3.5 0 0 0 24 20V10ZM3.5 21.5A1.5 1.5 0 0 1 2 20V3a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 .5.5v17c0 .295.037.588.11.874a.5.5 0 0 1-.484.625L3.5 21.5ZM22 20a1.5 1.5 0 1 1-3 0V9.5a.5.5 0 0 1 .5-.5H21a1 1 0 0 1 1 1v10Z" />
+                  </g>
+                </svg>
+              </div>
+              <div>
+                <h3>Laravel News</h3>
+                <p>Stay up to date with the latest releases, packages, and ecosystem updates.</p>
+              </div>
+            </a>
+
+            <a class="feature-card" href="#">
+              <div class="icon-wrap">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 3a9 9 0 1 0 9 9 9.01 9.01 0 0 0-9-9Zm0 16a7 7 0 1 1 7-7 7.008 7.008 0 0 1-7 7Zm.5-11h-1v4.3l3.4 2.1.5-.8-2.9-1.8Z" fill="currentColor" />
+                </svg>
+              </div>
+              <div>
+                <h3>Vibrant Ecosystem</h3>
+                <p>Explore packages, tools, and communities that extend Laravel in every direction.</p>
+              </div>
+            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      <section class="section container">
-        <div class="stats-grid">
-          <article class="stat reveal">
-            <strong>100%</strong>
-            <span>Static HTML output</span>
-          </article>
-          <article class="stat reveal">
-            <strong>No PHP</strong>
-            <span>Blade, Composer, and Artisan are no longer required</span>
-          </article>
-          <article class="stat reveal">
-            <strong>Fast load</strong>
-            <span>Relative assets and deferred scripts for better performance</span>
-          </article>
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <p>© <span id="year"></span> Laravel. Static deployment ready.</p>
+          <a href="contact.html">Get in touch</a>
         </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">What changed</p>
-            <h2>Core frontend elements preserved as static pages.</h2>
-          </div>
-          <div class="cards-grid">
-            <article class="card reveal">
-              <h3>Layout and structure</h3>
-              <p>Navigation, hero sections, cards, and content blocks were rebuilt in plain HTML for reliable hosting.</p>
-            </article>
-            <article class="card reveal">
-              <h3>Animation and motion</h3>
-              <p>Subtle reveals, hover states, and smooth transitions were retained with lightweight CSS and JavaScript.</p>
-            </article>
-            <article class="card reveal">
-              <h3>Responsive behavior</h3>
-              <p>The experience adapts to smaller screens with stacked layouts and touch-friendly navigation.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Backend-ready areas</p>
-          <h2>Dynamic features are now presented as static previews.</h2>
-        </div>
-        <div class="backend-grid">
-          <article class="backend-card reveal">
-            <h3>Authentication</h3>
-            <p>Login and registration views are represented as static mock states. A real backend is required for account handling.</p>
-          </article>
-          <article class="backend-card reveal">
-            <h3>Dashboard and monitoring</h3>
-            <p>Analytics panels are shown as sample content to preserve the visual structure while signaling that live data needs a server.</p>
-          </article>
-          <article class="backend-card reveal">
-            <h3>Reports and uploads</h3>
-            <p>Forms and action surfaces are visible but intentionally non-functional until a backend is connected.</p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-row">
-        <p>© <span id="year"></span> EduMonitor. Static deployment ready.</p>
-        <a href="contact.html">Get in touch</a>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="assets/js/main.js" defer></script>
   </body>
